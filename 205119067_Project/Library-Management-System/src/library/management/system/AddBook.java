@@ -30,7 +30,7 @@ public class AddBook extends JFrame implements ActionListener{
 	setContentPane(contentPane);
 	contentPane.setLayout(null);
 
-	JLabel l1 = new JLabel("Name");
+	JLabel l1 = new JLabel("First Name");
 	l1.setForeground(new Color(47, 79, 79));
 	l1.setFont(new Font("Tahoma", Font.BOLD, 14));
 	l1.setBounds(73, 84, 90, 22);
@@ -54,7 +54,7 @@ public class AddBook extends JFrame implements ActionListener{
 	l4.setBounds(73, 216, 90, 22);
 	contentPane.add(l4);
 
-	JLabel l5 = new JLabel("Pages");
+	JLabel l5 = new JLabel("Pages count");
 	l5.setForeground(new Color(47, 79, 79));
 	l5.setFont(new Font("Tahoma", Font.BOLD, 14));
 	l5.setBounds(73, 249, 90, 22);
